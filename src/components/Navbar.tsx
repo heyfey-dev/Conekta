@@ -39,18 +39,16 @@ export function Navbar({ onOpenWaitlist }: NavbarProps) {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm' : 'bg-transparent'}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
-         {/* Logo */}
-<div className="flex-shrink-0 flex items-center">
-  <a href="#" className="flex items-center">
-    <img
-      src="/conektablack.png"
-      alt="Company Logo"
-        className="h-16 w-[220px]  object-contain"
-    />
-  </a>
-</div>
-
+        <div className="flex justify-between items-center h-20">
+          {/* Logo */}
+          <div className="flex-shrink-0 flex items-center">
+            <a href="#" className="flex items-center gap-1">
+              <span className="font-display font-bold text-2xl text-teal-600 tracking-tight">
+                Conekta
+              </span>
+              <div className="w-2 h-2 rounded-full bg-amber-500 mt-1"></div>
+            </a>
+          </div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">

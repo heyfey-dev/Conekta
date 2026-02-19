@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  Twitter,
+ 
   Instagram,
   Linkedin,
   Facebook,
@@ -27,25 +27,25 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href=""
                 className="text-slate-400 hover:text-white transition-colors"
               >
-                <Twitter size={20} />
+                {/* <Twitter size={20} /> */}
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/useconekta?igsh=ZWZtNmowcnF5cnZx"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/use-conekta/"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Linkedin size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/1E2Kf4phSw/"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Facebook size={20} />
@@ -113,11 +113,11 @@ export function Footer() {
             <ul className="space-y-4 text-slate-400 text-sm">
               <li className="flex items-start gap-3">
                 <Mail size={18} className="mt-0.5 text-teal-500" />
-                <span>hello@conekta.ng</span>
+                <span>info@useconekta.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={18} className="mt-0.5 text-teal-500" />
-                <span>+234 800 CONEKTA</span>
+                <span>+2348072383942</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-0.5 text-teal-500" />

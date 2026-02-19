@@ -4,9 +4,9 @@ import { HeroSection } from '@/components/HeroSection'
 import { StatsSection } from './components/StatsSection'
 import { FinancingSection } from '@/components/FinancingSection'
 import { HowItWorksSection } from '@/components/HowItWorksSection'
-// import { ArtisansSection } from '@/components/ArtisansSection'
-// import { PropertyManagementSection } from '@/components/PropertyManagement'
-// import { FinalCTASection } from '@/components/FinalCTASection'
+import { ArtisansSection } from '@/components/ArtisansSection'
+import { PropertyManagementSection } from '@/components/PropertyManagement'
+import { FinalCTASection } from '@/components/FinalCTASection'
 import { Footer } from '@/components/Footer'
 import { WaitlistModal } from '@/components/WaitlistModal'
 
@@ -24,9 +24,9 @@ export default function App() {
         <StatsSection />
         <FinancingSection onOpenWaitlist={openWaitlist} />
         <HowItWorksSection />
-        {/* <ArtisansSection onOpenWaitlist={openWaitlist} />
+        <ArtisansSection onOpenWaitlist={openWaitlist} />
         <PropertyManagementSection onOpenWaitlist={openWaitlist} />
-        <FinalCTASection onOpenWaitlist={openWaitlist} /> */}
+        <FinalCTASection onOpenWaitlist={openWaitlist} />
       </main>
 
       <Footer />
